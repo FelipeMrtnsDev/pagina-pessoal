@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Noah Grotesque';
+    src: url('./Font/Noah\ Grotesque\ Bold\ Italic.otf') format('truetype');
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.section-container {
+    width: 100%;
+    height: 1043px;
+}
+
+.header-header {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+section header h1,
+section header nav ul li {
+    justify-content: space-between;
+    font-family: 'Noah Grotesque';
+}
+
+.header-container {
+    height: 150px;
+    width: 100%;
+}
+
+section header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.felipe-developer-h1 {
+    font-size: 60px;
+    display: inline;
+    margin-top: 30px;
+}
+
+section header nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+.botao-div a {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Noah Grotesque', sans-serif;
+    margin-right: 35px;
+}
+
+.botao-div {
+    margin-top: 50px;
+}
+
+.header-nav {
+    margin-top: 50px;
+}
+
+.header-header nav ul li a {
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+.header-header nav ul li a:hover {
+    border-bottom: 3px solid black;
+    transition: 0.7s;
+}
+
+.header-header nav ul li a:not(:hover) {
+    transition: 0.3s;
+}
+
+.developer-span {
+    color: rgb(255, 111, 0);
+}
+
+.login-a {
+    color: rgb(255,111,0);
+    border-radius: 15px;
+    padding: 5px;
+    padding-inline: 15px;
+}
+
+.login-a:hover {
+    color: rgb(244, 162, 47);
+    transition: 0.5s;
+}
+
+.login-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.signup-a {
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.signup-a:hover {
+    color: rgb(99, 97, 97);
+    transition: 0.5s;
+}
+
+.signup-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.msg-h2 {
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 3%;
+    width: 800px;
+    font-size: 50px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.full-stack-span {
+    color: rgb(255, 111, 0);
+}
+
+.my-pic-img {
+    height: 900px;
+    justify-content: center;
+    position: relative;
+}
+
+.div-pic {
+    width: 30%;
+    height: 850px;
+    position: absolute;
+    left: 77%;
+    top: 65%;
+    transform: translate(-50%, -63%);
+}
+
+.insta-div {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px black;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+.social-media-container {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-img {
+    width: 60px;
+    height: 60px;
+}
+
+.insta-div:hover {
+    padding: 14px;
+    cursor: pointer;
+    background-image: linear-gradient(#833ab4, #fd1d1d, #fcb045, #833ab4);
+    transition: 0.5s;
+}
+
+.insta-div:not(:hover) {
+    transition: 0.3s;
+}
+
+.git-div {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px black;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+.git-img {
+    width: 60px;
+    height: 60px;
+}
+
+.git-div:hover {
+    padding: 14px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4926fb, #382d9a, rgb(22, 23, 98));
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.git-div:not(:hover) {
+    transition: 0.3s;
+}
+
+.disc-div {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px black;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+.disc-img {
+    width: 60px;
+    height: 60px;
+}
+
+.disc-div:hover {
+    padding: 14px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #6a63ec, #5645f3, rgb(34, 37, 245));
+    transition: 0.5s;
+}
+
+.disc-div:not(:hover) {
+    transition: 0.3s;
+}
+
+.social-media-container div {
+    justify-content: space-between;
+}
+
+.background-sec1 {
+    width: 100%;
+    height: 1200px;
+}
+
+.about-h2 {
+    text-align: center;
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 55px;
+    color: orangered;
+}
+
+.about-p-container {
+    position: relative;
+    left: 40%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    height: 880px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.pic-2-container {
+    position: relative;
+    left: 30%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    height: 850px;
+    width: 30%;
+    border-radius: 30px;
+}
+
+.about-container {
+    width: 100%;
+    height: 1043px;
+    display: flex;
+}
+
+.pic-2-img {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.dados-p {
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 35px;
+    border: solid 4px black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 43px;
+}
+
+.background-sec2 {
+    width: 100%;
+    height: 1043px;
+}
+
+.skills-h2 {
+    color: orangered;
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.div-container-skills {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 20%;
+    height: 500px;
+    justify-content: space-between;
+    position: relative;
+    left: 35%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.box-2 {
+    width: 20%;
+    height: 500px;
+    justify-content: space-between;
+    position: relative;
+    right: 15%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.box-1 p {
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 32px;
+    margin: 30px;
+    margin-top: 25px;
+}
+
+.box-2 p {
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 32px;
+    margin: 30px;
+}
+
+.languages-div {
+    width: 80%;
+    height: 250px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.languages-div img {
+    position: relative;
+    left: 24%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    margin-inline: 40px;
+    height: 130px;
+    width: 130px;
+}
+
+.languages-div img:hover {
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.languages-div img:not(:hover) {
+    transition: 0.5s;
+}
+
+.backend-img {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.frontend-img {
+    width: 25%;
+    position: relative;
+    left: 46%;
+    transform: translate(-50%);
+    margin: 25px;
+}
+
+.background-sec3 {
+    width: 100%;
+    height: 720px;
+    background-color: orangered;
+}
+
+.contact-h2 {
+    color: black;
+    font-size: 45px;
+    font-family: 'Noah Grotesque', sans-serif;
+    margin-left: 30px;
+}
+
+.formulario {
+    width: 20%;
+    height: 600px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.talk-h3 {
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 27px;
+}
+
+.name-input {
+    width: 100%;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.tel-input {
+    width: 100%;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.write-textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    resize: none;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.formlario input {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noah Grotesque';
+}
